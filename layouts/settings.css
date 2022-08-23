@@ -1,0 +1,57 @@
+/* BODYELEMENTS GENERAL SETTINGS */
+* {
+  font-family: "Montserrat";
+  transition: 0.5s ease;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url(../assets/fonts/Montserrat-Regular.woff);
+}
+@font-face {
+  font-family: "Montserrat2";
+  src: url(../assets/fonts/Montserrat-SemiBold.woff);
+}
+@font-face {
+  font-family: "Montserrat3";
+  src: url(../assets/fonts/Montserrat-Bold.woff);
+}
+h1 {
+  display: none;
+}
+h2,
+h3,
+h4,
+h6,
+a {
+  text-transform: uppercase;
+}
+h2 {
+  color: white;
+  margin: 20px auto;
+}
+h5 {
+  margin: 20px 0;
+  font-size: 0.9rem;
+}
+h6 {
+  font-family: "Montserrat3";
+}
+a {
+  text-decoration: none;
+  font-size: 0.8rem;
+  color: black;
+  font-family: "Montserrat3";
+}
+button {
+  height: 70px;
+  padding: 0 20px;
+  background: transparent;
+  border: 2px solid white;
+}
+button a {
+  color: white;
+}
+p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}

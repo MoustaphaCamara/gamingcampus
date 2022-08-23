@@ -1,0 +1,44 @@
+/* ****** SECTION3 ****** */
+#section3 {
+  width: 90%;
+  margin: 40px auto;
+}
+.social,
+.fame-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+  margin: 20px auto;
+}
+.info img {
+  width: 150px;
+}
+.info-link {
+  text-transform: initial;
+  color: blueviolet;
+  font-size: 0.6rem;
+}
+.info p {
+  font-family: Montserrat3;
+}
+.bar {
+  margin: 30px auto;
+  width: 80%;
+  height: 1px;
+  background: lightgray;
+}
+.fame-container {
+  justify-content: space-around;
+  width: 100%;
+}
+.fame-logos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}

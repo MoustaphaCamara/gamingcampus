@@ -1,0 +1,49 @@
+/* ****** SECTION 2 CAMPUS NEWS ****** */
+.section2-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.news-container {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.news-container a {
+  color: black;
+  border: 1px solid black;
+  padding: 10px 20px;
+}
+.news-container h5 {
+  font-size: 0.8em;
+}
+.campus-news {
+  width: 68%;
+}
+.article-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5%;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  width: 221px;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+.article p {
+  margin-bottom: 20px;
+}
+.article img {
+  box-shadow: 2px 2px 7px black;
+  width: 200px;
+}
+.read {
+  color: blueviolet;
+}
