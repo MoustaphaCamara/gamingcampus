@@ -1,7 +1,9 @@
 /* ****** HEADER ****** */
 nav {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
   margin: 0 auto;
-  width: 90%;
+  width: 100%;
 }
 .nav-container {
   margin: 0 auto;
@@ -28,7 +30,8 @@ nav ul li a:hover {
 }
 #landing {
   background: url(../assets/img/bg.jpg) center/cover;
-  height: 50vh;
+  height: 100vh;
+  padding-top: 100px;
 }
 .landing-container {
   padding-top: 3%;

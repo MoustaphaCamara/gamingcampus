@@ -19,6 +19,9 @@
 .news-container h5 {
   font-size: 0.8em;
 }
+#section2 button:hover {
+  border: white;
+}
 .campus-news {
   width: 68%;
 }
